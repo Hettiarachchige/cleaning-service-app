@@ -1,0 +1,70 @@
+{
+  "bookings": [
+    {
+      "id": "1",
+      "customer_name": "John Doe",
+      "address": "123 Main St",
+      "date_time": "2023-06-15T10:00:00",
+      "service_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": "2",
+      "customer_name": "Jane Smith",
+      "address": "456 Oak Ave",
+      "date_time": "2023-06-16T14:00:00",
+      "service_id": 2,
+      "user_id": 2
+    },
+    {
+      "id": "daee",
+      "customer_name": "Ishu",
+      "address": "315 main St",
+      "date_time": "2025-05-03T17:00",
+      "service_id": 0,
+      "user_id": 1
+    },
+    {
+      "id": "3067",
+      "customer_name": "Ishu",
+      "address": "315 main St",
+      "date_time": "2025-05-03T19:00",
+      "service_id": "2",
+      "user_id": 1
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Deep Cleaning"
+    },
+    {
+      "id": "2",
+      "name": "Carpet Cleaning"
+    },
+    {
+      "id": "3",
+      "name": "Window Cleaning"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password_hash": "admin123"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password_hash": "password1"
+    }
+  ],
+  "_headers": [
+    {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      "id": "11c8"
+    }
+  ]
+}
