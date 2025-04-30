@@ -30,41 +30,25 @@ A web application for booking and managing cleaning services with admin panel fu
 ## Installation
 
 1. **Clone the repository**
+   ```bash
    git clone https://github.com/Hettiarachchige/cleaning-service-app.git
    cd cleaning-service-app
-   
-2.Install dependencies
-  npm install
+   Install dependencies
+'''bash
 
-3.Start the application
-  npm start
+    npm install
 
-4.Run the mock API server (in a separate terminal)
-npm run server
+Start the application
+'''bash
 
-5.Project Structure
-  cleaning-service-app/
-├── src/
-│   ├── api/               # API service files
-│   ├── components/        # Reusable components
-│   ├── pages/             # Page components
-│   ├── types/             # TypeScript types
-│   ├── App.tsx            # Main app component
-│   └── index.tsx          # Entry point
-├── public/                # Static files
-├── db.json                # Mock database
-└── package.json           # Project dependencies
+    npm start
 
-6.Available Scripts
+Run the mock API server (in a separate terminal)
+'''bash
 
-npm start: Runs the app in development mode
-npm run server: Starts the mock API server
-npm run build: Builds the app for production
-npm test: Runs tests
-npm run eject: Ejects from Create React App
-
+    npm run server
+    
 #Contact
 
-Your Name - H.A.I.Nadeeshan - hainadeeshan@gmail.com
-
+Your Name - ISHARA NADEESHAN - hainadeeshan@gmail.com
 Project Link: https://github.com/Hettiarachchige/cleaning-service-app
