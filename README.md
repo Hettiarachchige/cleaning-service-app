@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Cleaning Service Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![MaterialUI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
 
-## Available Scripts
+A web application for booking and managing cleaning services with admin panel functionality.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Features
+- 📅 Book cleaning services with date/time selection
+- 👀 View all personal bookings
+- ✏️ Edit existing bookings
+- ❌ Cancel bookings
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Admin Features
+- 👨‍💼 Manage all bookings
+- 🧹 CRUD operations for service offerings
+- 📊 Dashboard overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend**: React.js with TypeScript
+- **UI Framework**: Material-UI
+- **Mock API**: json-server
+- **State Management**: React Context API
+- **Routing**: React Router
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. **Clone the repository**
+   git clone https://github.com/Hettiarachchige/cleaning-service-app.git
+   cd cleaning-service-app
+   
+2.Install dependencies
+  npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.Start the application
+  npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4.Run the mock API server (in a separate terminal)
+npm run server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5.Project Structure
+  cleaning-service-app/
+├── src/
+│   ├── api/               # API service files
+│   ├── components/        # Reusable components
+│   ├── pages/             # Page components
+│   ├── types/             # TypeScript types
+│   ├── App.tsx            # Main app component
+│   └── index.tsx          # Entry point
+├── public/                # Static files
+├── db.json                # Mock database
+└── package.json           # Project dependencies
 
-### `npm run eject`
+6.Available Scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm start: Runs the app in development mode
+npm run server: Starts the mock API server
+npm run build: Builds the app for production
+npm test: Runs tests
+npm run eject: Ejects from Create React App
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Your Name - H.A.I.Nadeeshan - hainadeeshan@gmail.com
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Link: https://github.com/Hettiarachchige/cleaning-service-app
