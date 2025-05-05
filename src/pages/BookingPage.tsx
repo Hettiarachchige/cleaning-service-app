@@ -22,7 +22,7 @@ export const BookingPage = () => {
         console.error('Error fetching booking:', error);
         setBooking(null);
       } finally {
-        setIsLoading(false); // Stop loading regardless of success/error
+        setIsLoading(false); 
       }
     };
     fetchBooking();
