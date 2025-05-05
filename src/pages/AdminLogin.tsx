@@ -11,7 +11,7 @@ export const AdminLogin = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    // In a real app, you would verify against your backend
+   
     if (username === 'admin' && password === 'admin123') {
       localStorage.setItem('isAdmin', 'true');
       navigate('/admin');
