@@ -11,7 +11,7 @@ export const Dashboard = () => {
   const [editingBooking, setEditingBooking] = useState<Booking | null>(null);
   const navigate = useNavigate();
 
-  // In a real app, you'd get this from auth context
+ 
   const userId = 1;
 
   useEffect(() => {
